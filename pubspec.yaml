@@ -1,0 +1,91 @@
+name: flutter_manager
+description: "flutter 实现的 后台管理系统"
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  # lottie动画 https://pub-web.flutter-io.cn/packages/lottie/install
+  lottie: ^3.3.1
+  # getX：https://pub-web.flutter-io.cn/packages/get/install
+  get: ^4.7.2
+  # 屏幕适配：https://pub-web.flutter-io.cn/packages/flutter_screenutil/install
+  flutter_screenutil: ^5.9.3
+  # 日志：https://pub-web.flutter-io.cn/packages/logger/install
+  logger: ^2.5.0
+  # 下拉刷新  https://pub-web.flutter-io.cn/packages/pull_to_refresh/install
+  pull_to_refresh: ^2.0.0
+  #https://pub.dev/packages/easy_refresh/install
+  easy_refresh: ^3.4.0
+  # 图片加载  https://pub-web.flutter-io.cn/packages/cached_network_image/install
+  cached_network_image: ^3.4.1
+  # retrofit https://pub-web.flutter-io.cn/packages/retrofit/install   flutter pub run build_runner build
+  retrofit: ^4.4.2
+  # dio https://pub-web.flutter-io.cn/packages/dio/install
+  dio: ^5.8.0+1
+  # json_serializable https://pub-web.flutter-io.cn/packages/json_serializable/install
+  json_serializable: ^6.9.5
+  # json_annotation https://pub-web.flutter-io.cn/packages/json_annotation/install
+  json_annotation: ^4.9.0
+  # 网络请求日志 https://pub-web.flutter-io.cn/packages/pretty_dio_logger/install
+  pretty_dio_logger: ^1.4.0
+  # encrypt https://pub-web.flutter-io.cn/packages/encrypt/install
+  encrypt: ^5.0.3
+  # Widget可见行监听 https://pub-web.flutter-io.cn/packages/visibility_detector/install
+  visibility_detector: ^0.4.0+2
+  # shared_preferences https://pub-web.flutter-io.cn/packages/shared_preferences/install
+  shared_preferences: ^2.5.3
+  # toast https://pub-web.flutter-io.cn/packages/fluttertoast
+  fluttertoast: ^8.2.12
+  # extended_nested_scroll_view https://pub-web.flutter-io.cn/packages/extended_nested_scroll_view/install
+  extended_nested_scroll_view: ^6.2.1
+  # 动态权限 https://pub-web.flutter-io.cn/packages/permission_handler/install
+  permission_handler: ^12.0.0+1
+  # 图片裁剪 https://pub-web.flutter-io.cn/packages/custom_image_crop/install
+  custom_image_crop: ^0.1.1
+  # qiniu_flutter_sdk: ^0.5.0
+  # path_provider https://pub-web.flutter-io.cn/packages/path_provider/install
+  path_provider: ^2.1.5
+  # 事件总线 https://pub-web.flutter-io.cn/packages/event_bus/install
+  event_bus: ^2.0.1
+  # 图片预览 https://pub-web.flutter-io.cn/packages/photo_view/install
+  photo_view: ^0.15.0
+  # image_gallery_saver https://pub-web.flutter-io.cn/packages/image_gallery_saver/install
+  image_gallery_saver: ^2.0.3
+  # 微信图片选择器 https://pub-web.flutter-io.cn/packages/wechat_assets_picker/install
+  wechat_assets_picker: ^9.5.1
+  # image_picker https://pub-web.flutter-io.cn/packages/image_picker/install
+  image_picker: ^1.1.2
+  # 视频播放器 https://pub-web.flutter-io.cn/packages/chewie/install
+  chewie: ^1.11.3
+  video_player: ^2.10.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+  # retrofit
+  retrofit_generator: ^9.2.0
+  # build_runner: '>=2.3.0 <4.0.0'
+  build_runner: ^2.4.15
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/lottie/
+    - assets/image/
+
